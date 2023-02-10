@@ -1,4 +1,4 @@
-*{
+* {
     background: #b1b2b5;
     font-family: 'Karla', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -7,19 +7,19 @@
     line-height: 150%;
 }
 
-.logo{
+.logo {
     padding-top: 10px;
     margin-left: 10px;
     width: 5;
 }
 
-main{
+main {
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
 }
 
-.text-area{
+.text-area {
     border: none;
     color: #000000;
     font-size: 20px;
@@ -27,10 +27,13 @@ main{
     text-transform: lowercase;
     resize: none;
 }
-::placeholder { color: #000000; }
-    .text-area:focus {
-        outline: none;
-    }
+::placeholder {
+    color: #000000;
+}
+
+.text-area:focus {
+    outline: none;
+}
 
 .mensaje {
     background: #ffffff;
@@ -45,16 +48,17 @@ main{
     position: fixed;
     resize: none;
 }
-.mensaje:focus{
+
+.mensaje:focus {
     outline: none;
 }
 
-.botones{
+.botones {
     display: flex;
     margin-top: 18px;
 }
 
-.btn-desencriptar{
+.btn-desencriptar {
     border: none;
     border-radius: 24px;
     color: white;
@@ -65,12 +69,12 @@ main{
     width: 328px;
 }
 
-.btn-desencriptar:hover{
-    background:  orangered;
+.btn-desencriptar:hover {
+    background: orangered;
     transform: scale(0.9);
 }
 
-.btn-encriptar{
+.btn-encriptar {
     border: none;
     border-radius: 24px;
     color: white;
@@ -81,8 +85,8 @@ main{
     transition: 0s all;
 }
 
-.btn-encriptar:hover{
-    background:  orangered;
+.btn-encriptar:hover {
+    background: orangered;
     transform: scale(0.9);
 }
 
@@ -92,7 +96,7 @@ main{
     margin-left: 170px;
     margin-top: 330px;
     position: absolute;
-    width: 100px; 
+    width: 100px;
     color: white;
     background: orangered;
     border: none;
@@ -100,19 +104,81 @@ main{
     transition: 0s all;
 }
 
-.copiar:hover{
+.copiar:hover {
     background: darkorange;
     transform: scale(0.9);
 }
 
-.informacion{
+.informacion {
     color: #495057;
     font-size: 18px;
 }
 
-.nombreDesarollador{
+.nombreDesarollador {
     color: #000000;
     font-size: 13px;
     margin: 10px;
     font-weight: bold;
+}
+
+@media screen and (max-width:950px) {
+
+    .logo {
+        width: 8%;
+    }
+
+    main {
+        margin: 0px;
+        display: block;
+    }
+
+    .text-area {
+        margin-top: 10px;
+        margin-left: 35px;
+        font-size: 16px;
+    }
+
+    .informacion {
+        margin-left: 30px;
+        font-size: 13px;
+    }
+
+    .botones {
+        margin-top: 5px;
+        position: absolute;
+        margin-left: 20px;
+    }
+
+    .btn-encriptar {
+        height: 30px;
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .btn-desencriptar {
+        height: 30px;
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .mensaje {
+        margin-top: 70px;
+        margin-left: 30px;
+        position: absolute;
+    }
+
+    .copiar {
+        height: 30px;
+        width: 110px;
+        font-size: 12px;
+        margin-top: 95%;
+        margin-left: 95px;
+    }
+
+    .nombreDesarollador {
+        margin-top: 110%;
+        margin-left: 110px;
+        position: absolute;
+    }
+
 }

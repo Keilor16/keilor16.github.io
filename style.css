@@ -124,7 +124,7 @@ main {
 @media screen and (max-width:950px) {
 
     .logo {
-        width: 8%;
+        width: 12%;
     }
 
     main {
@@ -134,50 +134,52 @@ main {
 
     .text-area {
         margin-top: 10px;
-        margin-left: 35px;
+        margin-left: 40px;
         font-size: 16px;
+        width: 80%;
     }
 
     .informacion {
-        margin-left: 30px;
+        margin-left: 75px;
         font-size: 13px;
     }
 
     .botones {
         margin-top: 5px;
         position: absolute;
-        margin-left: 20px;
+        margin-left: 80px;
     }
 
     .btn-encriptar {
-        height: 30px;
+        height: 40px;
         width: 110px;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .btn-desencriptar {
-        height: 30px;
+        height: 40px;
         width: 110px;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .mensaje {
         margin-top: 70px;
-        margin-left: 30px;
+        margin-left: 20px;
         position: absolute;
+        width: 80%;
     }
 
     .copiar {
-        height: 30px;
-        width: 110px;
-        font-size: 12px;
+        height: 40px;
+        width: 130px;
+        font-size: 15px;
         margin-top: 95%;
-        margin-left: 95px;
+        margin-left: 140px;
     }
 
     .nombreDesarollador {
         margin-top: 110%;
-        margin-left: 110px;
+        margin-left: 160px;
         position: absolute;
     }
 
